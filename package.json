@@ -1,0 +1,19 @@
+{
+  "name": "ggplot",
+  "version": "0.0.1",
+  "description": "Grammar of Graphics for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js --standalone Plot > ggplot.js", 
+    "start": "npm run build && cp ggplot.js test && http-server -o http://localhost:8080/test/test.html"
+  },
+  "author": "David Kretch <david.kretch@gmail.com>",
+  "dependencies": {
+  	"d3": "^4.0.0"
+  }, 
+  "license": "ISC",
+  "directories": {
+  	"lib": "lib",
+    "test": "test"
+  }
+}
