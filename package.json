@@ -9,11 +9,11 @@
   },
   "author": "David Kretch <david.kretch@gmail.com>",
   "dependencies": {
-  	"d3": "^4.0.0"
+    "d3": "^4.0.0"
   }, 
   "license": "ISC",
   "directories": {
-  	"lib": "lib",
+    "lib": "lib",
     "test": "test"
   }
 }
